@@ -6,8 +6,8 @@ const Work = () => {
     <>
       <Layout>
         <section className="h-screen flex items-center justify-center bg-gray-100">
-          <h1 className="text-4xl font-semibold">
-            My Work
+          <h1 className="text-xl font-semibold">
+            In progress
           </h1>
         </section>
       </Layout>

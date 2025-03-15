@@ -36,7 +36,7 @@ const Header = () => {
         )}
       </AnimatePresence>
 
-      <header className="absolute top-12 left-14 right-14 flex justify-between items-center">
+      <header className="absolute top-8 left-5 right-5 flex justify-between items-center">
         <Link
           to="/"
           onClick={(e) => handleClick(e, "devFlow.", "/")}

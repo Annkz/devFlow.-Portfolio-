@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Project1 from "../images/Project1.png";
 import Project3 from "../images/Project3.png";
+import WhatIDo from "./WhatIDo"
+import Footer from "./Footer";
 
 const projects = [
   {
@@ -78,7 +80,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-20 text-center">
           <a
             href="/work"
             className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white text-sm sm:text-base font-normal rounded-md hover:bg-gray-900 transition"
@@ -86,6 +88,14 @@ const Projects = () => {
             All Projects
           </a>
         </div>
+      </div>
+
+      <div className="mt-30">
+        <WhatIDo/>
+      </div>
+      
+      <div className="mt-30">
+        <Footer />
       </div>
     </section>
   );

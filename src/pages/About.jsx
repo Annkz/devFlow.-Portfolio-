@@ -22,13 +22,15 @@ import {
   MdMemory,
   MdDeveloperMode,
 } from "react-icons/md"; 
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
+    <>
       <Layout>
         <section className="min-h-screen flex items-start justify-start bg-gray-100 px-4 sm:px-10 md:px-16 lg:px-24 pt-24 sm:pt-28">
           <div className="max-w-4xl w-full">
-            <p className="text-sm font-normal uppercase tracking-widest text-gray-800 mt-6 sm:mt-0">
+            <p className="text-sm font-normal uppercase tracking-widest text-gray-800 sm:mt-10">
               About
             </p>
 
@@ -150,6 +152,11 @@ const About = () => {
           </div>
         </section>
       </Layout>
+
+      <div className="pb-17">
+        <Footer/>
+      </div>
+    </>
   );
 };
 

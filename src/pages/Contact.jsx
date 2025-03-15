@@ -4,10 +4,10 @@ import Layout from "../components/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <div className="min-h-screen flex items-center justify-start bg-white px-4 sm:px-8 md:px-16 py-12 sm:py-20 md:py-24">
+      <div className="min-h-screen flex items-center justify-start bg-white px-4 sm:px-8 md:px-16 py-20 sm:py-20 md:py-24">
         <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-[2fr_3fr] md:gap-16">
           
-          <div className="space-y-4 sm:space-y-6 text-center md:text-left">
+          <div className="space-y-4 sm:space-y-6 text-start md:text-left">
             <h1 className="text-xl sm:text-3xl md:text-5xl font-normal leading-tight max-w-[400px] sm:max-w-[500px] mx-auto md:mx-0 mt-4 sm:mt-2 md:mt-0">
               If you have a cool project or just want to chat — contact me
             </h1>
@@ -32,7 +32,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Enter your name"
-                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-400 placeholder:text-[13px] sm:placeholder:text-[14px]"
+                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-100 placeholder:text-[13px] sm:placeholder:text-[14px]"
                   required
                 />
               </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="Enter your email"
-                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-400 placeholder:text-[13px] sm:placeholder:text-[14px]"
+                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-100 placeholder:text-[13px] sm:placeholder:text-[14px]"
                   required
                 />
               </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   placeholder="Your message"
-                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-400 h-[120px] sm:h-[150px] placeholder:text-[13px] sm:placeholder:text-[14px] resize-none"
+                  className="w-full p-2 sm:p-3 mt-1 sm:mt-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-gray-100 h-[120px] sm:h-[150px] placeholder:text-[13px] sm:placeholder:text-[14px] resize-none"
                   required
                 ></textarea>
               </div>
