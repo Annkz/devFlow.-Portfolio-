@@ -11,7 +11,6 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <Navbar />
-      
     </div>
   );
 };
