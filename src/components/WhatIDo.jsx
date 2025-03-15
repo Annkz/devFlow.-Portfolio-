@@ -36,7 +36,9 @@ const WhatIDo = () => {
                       max-sm:bg-gray-100 max-sm:px-1 max-sm:py-2 max-sm:rounded-md"
           >
             Get to know more about me
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-200 ease-out group-hover:w-full"></span>
+            <span className="block w-full border-b border-gray-300 max-sm:border-none relative">
+              <span className="absolute left-0 bottom-[-2px] w-0 h-[1px] bg-black transition-all duration-300 ease-out group-hover:w-full"></span>
+            </span>
           </button>
         </div>
       </div>

@@ -15,7 +15,6 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          {/* Redirect unknown routes to home */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Layout>

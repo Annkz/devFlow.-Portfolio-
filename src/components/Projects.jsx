@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Project1 from "../images/Project1.png";
 import Project3 from "../images/Project3.png";
-import WhatIDo from "./WhatIDo"
+import WhatIDo from "./WhatIDo";
 import Footer from "./Footer";
 
 const projects = [
@@ -36,19 +36,20 @@ const Projects = () => {
               key={index}
               className="relative group block overflow-hidden rounded-lg shadow-lg"
             >
+              {/* Image with brightness adjustment */}
               <div className="w-full h-auto relative">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-auto max-w-full object-cover transition-all duration-300
-                    brightness-40 sm:brightness-100 sm:group-hover:brightness-50
-                    sm:group-hover:scale-95 px-2"
+                    brightness-40 lg:brightness-100 lg:group-hover:brightness-50
+                    lg:group-hover:scale-99 px-2"
                 />
               </div>
 
               <div
                 className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 text-center 
-                opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"
+                opacity-100 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
               >
                 <h3 className="text-white text-xl sm:text-2xl font-normal">
                   {project.title}
@@ -91,9 +92,9 @@ const Projects = () => {
       </div>
 
       <div className="mt-30">
-        <WhatIDo/>
+        <WhatIDo />
       </div>
-      
+
       <div className="mt-30">
         <Footer />
       </div>
