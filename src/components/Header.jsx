@@ -36,11 +36,11 @@ const Header = () => {
         )}
       </AnimatePresence>
 
-      <header className="absolute top-8 left-7 lg:left-15 right-7 lg:right-15 flex justify-between items-center">
+      <header className="absolute top-8 left-7  lg:left-15 right-7 lg:right-15 md:left-16 md:right-15 flex justify-between items-center">
         <Link
           to="/"
           onClick={(e) => handleClick(e, "devFlow.", "/")}
-          className="text-lg font-bold cursor-pointer"
+          className="text-lg md:text-2xl font-bold cursor-pointer"
         >
           devFlow.
         </Link>
@@ -50,7 +50,7 @@ const Header = () => {
           className="border border-white bg-white bg-opacity-90 shadow rounded 
                     px-4 py-2 text-sm 
                     sm:px-5 sm:py-2.5 sm:text-base 
-                    md:px-6 md:py-3 md:text-sm cursor-pointer"
+                    md:px-6 md:py-3 md:text-xl cursor-pointer"
         >
           Hit me up
         </button>

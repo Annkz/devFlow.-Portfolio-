@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Layout>
-        <div className="min-h-screen flex items-center justify-start bg-white px-4 sm:px-8 md:px-16 py-20 sm:py-20 md:py-24">
+        <div className="min-h-screen flex items-center justify-start bg-white px-8 sm:px-8 md:px-16 py-20 sm:py-20 md:py-24">
           <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-[2fr_3fr] md:gap-16">
             <div className="space-y-4 sm:space-y-6 text-start md:text-left">
               <h1 className="text-xl sm:text-3xl md:text-5xl font-normal leading-tight max-w-[400px] sm:max-w-[500px] mx-auto md:mx-0 mt-4 sm:mt-2 md:mt-0">

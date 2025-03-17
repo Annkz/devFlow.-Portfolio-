@@ -58,10 +58,10 @@ const HeroSection = () => {
             opacity: Math.min(1, Math.max(1 - scrollY / 400, 0.3)), 
           }}
         >
-          <p className="uppercase tracking-widest text-gray-900 font-semibold mb-4">
+          <p className="uppercase tracking-widest text-gray-900 font-semibold mb-4 md:text-[18px]">
             Welcome
           </p>
-          <h1 className="text-[28px] sm:text-[34px] md:text-[40px] lg:text-[46px] font-medium leading-snug sm:leading-normal md:leading-tight text-black tracking-tight text-center max-w-3xl md:max-w-4xl">
+          <h1 className="text-[28px] sm:text-[34px] md:text-[40px] lg:text-[46px] font-medium leading-snug sm:leading-normal md:leading-tight text-black tracking-tight text-center max-w-3xl md:max-w-4xl md:mx-6 md:my-6">
             Hey I'm Ankit — your new favourite Frontend Developer. I specialize
             in designing sweet <em className="italic">interactive ⟳</em>{" "}
             experiences.

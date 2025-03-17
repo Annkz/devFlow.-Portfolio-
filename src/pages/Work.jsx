@@ -38,9 +38,12 @@ const Work = () => {
       <section className="min-h-screen bg-white px-8 md:px-16 pt-20">
         {/* Heading Section */}
         <div className="mt-25">
-          <p className="text-sm uppercase font-normal text-black">Projects</p>
-          <h1 className="text-3xl md:text-5xl font-normal mt-2 leading-tight">
-            Some cool ideas brought <br /> to life through code.
+          <p className="text-sm uppercase font-normal text-black md:text-xl">
+            Projects
+          </p>
+          <h1 className="text-2xl md:text-5xl font-normal mt-2 leading-tight">
+            Some cool ideas brought <br />
+            to life through code.
           </h1>
         </div>
 
@@ -93,12 +96,14 @@ const Work = () => {
 
         {/* Text Section Below Images */}
         <div className="mt-20 md:mt-36 text-left max-w-3xl px-4 sm:px-6 md:px-0">
-          <h2 className="text-[11px]  sm:text-sm md:text-sm lg:text-2xl font-normal leading-relaxed">
-            Like my style? Looking to boost your business or
-            <br/>
-            product with some awesome generative websites? 
-            <br/>
-             Make sure to hit me up.
+          <h2 className="text-[15px] sm:text-sm md:text-2xl lg:text-2xl font-normal leading-relaxed max-w-full md:max-w-[600px]">
+            Like my style? Looking to boost your business or product with some
+            awesome generative websites?
+          </h2>
+
+          <h2 className="text-[15px]  sm:text-sm md:text-2xl lg:text-2xl font-normal leading-relaxed">
+            <br />
+            Make sure to hit me up.
           </h2>
 
           <button
@@ -106,7 +111,7 @@ const Work = () => {
               window.scrollTo(0, 0); // Scroll to the top before navigating
               navigate("/contact");
             }}
-            className="relative mt-15 sm:mt-25 mb-25 py-2 text-base text-[11px] sm:text-xs md:text-sm lg:text-xl font-medium text-black transition-all duration-300
+            className="relative mt-15 sm:mt-25 mb-25 py-2 text-base text-[15px] sm:text-xs md:text-2xl lg:text-xl font-medium text-black transition-all duration-300
                       focus:outline-none cursor-pointer group
                       max-sm:bg-gray-100 max-sm:px-1 max-sm:py-2 max-sm:rounded-md"
           >

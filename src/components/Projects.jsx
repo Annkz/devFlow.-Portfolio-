@@ -49,12 +49,12 @@ const Projects = () => {
 
               <div
                 className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 text-center 
-                opacity-100 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
+                opacity-100 lg:opacity-0 md:group-hover:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300"
               >
-                <h3 className="text-white text-xl sm:text-2xl font-normal">
+                <h3 className="text-white text-md sm:text-xl md:text-xl font-normal">
                   {project.title}
                 </h3>
-                <p className="text-gray-200 text-sm sm:text-lg mt-2">
+                <p className="text-gray-200 text-sm sm:text-md md:text-lg mt-2 md:mx-4">
                   {project.description}
                 </p>
 
